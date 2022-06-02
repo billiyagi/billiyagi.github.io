@@ -1,0 +1,83 @@
+* {
+    transition: all .3s;
+}
+body {
+    font-family: 'Nunito', sans-serif;
+}
+.loading-overlay {
+    z-index: 99999;
+}
+.intro {
+    background: linear-gradient(171deg, rgba(0, 170, 255, 0.15) 15.58%, rgba(225, 0, 216, 0) 66.57%)
+}
+
+.contact {
+    background: linear-gradient(345deg, rgba(0, 170, 255, 0.15) 15.58%, rgba(225, 0, 216, 0) 66.57%);
+}
+
+
+.text-blu {
+    color: #20ADFD;
+}
+.bg-blu {
+    background-color: #20ADFD;
+}
+
+.title i {
+    font-size: 4em;
+}
+
+.shadow-hover {
+    box-shadow: 5px 5px 0.7rem -0.5rem rgba(0,0,0,.1);
+}
+.shadow-hover-2 {
+    box-shadow: 10px 10px 2rem -0.5rem rgba(0,0,0,.1);
+}
+.shadow-hover:hover {
+    transition: .3s;
+    box-shadow: 10px 10px 2rem -0.5rem rgba(0,0,0,.1);
+}
+
+.card-img-top {
+    height: 230px;
+    object-fit: cover;
+}
+
+
+.clients-card img {
+    width: 120px;
+    height: 120px;
+    top: -20px;
+}
+
+.overlay {
+    background-color: #FFF;
+    transform: translateX(100%);
+}
+
+.overlay-show {
+    transform: translate(-100%);
+}
+
+.clients-overlay-go {
+    background-color: rgba(0,0,0,.5);
+    opacity: 0;
+}
+
+.clients-card:hover .clients-overlay-go{
+    opacity: 1;
+}
+
+.clients-overlay-btn {
+    background-color: transparent;
+    border: 1px solid #FFF;
+    color: #FFF;
+}
+.clients-overlay-btn:hover {
+    background-color: #FFF;
+    color: #000;
+}
+
+#logoProject {
+    object-fit: cover;
+}

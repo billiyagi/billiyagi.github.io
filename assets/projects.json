@@ -1,0 +1,157 @@
+[
+    {
+        "title": "BKPAXIST",
+        "logo": "bkpaxist-logo.png",
+        "preview": "https://bkpaxist.000webhostapp.com",
+        "purpose": "Website penyedia layanan bimbingan konseling",
+        "thumbnail": "home-BKPAXIST.png",
+        "description": "BKPAXIST Adalah layanan bimbingan konseling untuk siswa/i dari sekolah SMK Putra Pakuan. Berupa edukasi psikologi, konsultasi dan artikel yang dapat dibaca oleh semua orang.",
+        "owner": "Vera Andriani, S.Pd",
+        "directory": "BKPAXIST", 
+        "release":  [
+            "6",
+            "Februari",
+            "2022"
+        ],
+        "screenshots": [
+            "home-BKPAXIST.png",
+            "artikel-dan-live-search-BKPAXIST.png",
+            "konsultasi-BKPAXIST.png"
+        ],
+        "frameworklibrary": [
+            "Bootstrap 5",
+            " Codeigniter 4",
+            " JQuery",
+            " AOS - Animate on Scroll",
+            " DataTables",
+            " FontAwesome",
+            " CKeditor",
+            " SweetAlert",
+            " Tooltip",
+            " Popper"
+        ]
+    }, {
+        "title": "TKJ FAMILY",
+        "logo": "TKJ-NewLogo[ORANGE].jpg",
+        "preview": "https://tkj-family.000webhostapp.com",
+        "purpose": "Blog dan gallery aktifitas kelas",
+        "thumbnail": "home-TKJ-FAMILY.png",
+        "description": "Website yang menampilkan kenangan - kenangan di masa sekolah menengah ke atas Jurusan TKJ, Angkatan 11 di SMK Putra Pakuan Bogor.",
+        "owner": "TKJ Angkatan 11",
+        "directory": "TKJ-FAMILY", 
+        "release":  [
+            "30",
+            "Agustus",
+            "2021"
+        ],
+        "screenshots": [
+            "home-TKJ-FAMILY.png",
+            "blog-TKJ-FAMILY.png",
+            "single-blog-TKJ-FAMILY.png"
+        ],
+        "frameworklibrary": [
+            "Bootstrap 5",
+            " CKeditor",
+            " JQuery",
+            " AOS - Animate on Scroll",
+            " Popper"
+        ]
+    },{
+        "title": "Febri Trans Madiun",
+        "logo": "Febri-Trans-Madiun-logo.png",
+        "preview": "https://febritransmadiun.com",
+        "purpose": "Profil Perusahaan Rental Mobil Febri Trans Madiun",
+        "thumbnail": "home-FEBRITRANSMADIUN.png",
+        "description": "Rental Mobil Febri Trans Madiun merupakan salah satu usaha penyedia layanan transportasi rental mobil di kota Madiun dan sekitarnya. Febri Trans menyediakan berbagai macam jenis kendaraan. Kami berkomitmen untuk mengedepankan pelayanan dan kenyamanan pelanggan.",
+        "owner": "Febri Ardhya",
+        "directory": "FEBRI-TRANS-MADIUN", 
+        "release":  [
+            "03",
+            "Desember",
+            "2020"
+        ],
+        "screenshots": [
+            "home-FEBRITRANSMADIUN.png",
+            "harga-rental-FEBRITRANSMADIUN.png",
+            "kontak-FEBRITRANSMADIUN.png"
+        ],
+        "frameworklibrary": [
+            "Wordpress",
+            "Bootstrap 5",
+            "JQuery"
+        ]
+    },{
+        "title": "Dipolling",
+        "logo": "dipolling.ico",
+        "preview": "https://gobillyx.000webhostapp.com/dipolling/",
+        "purpose": "Aplikasi polling sederhana dengan kebebasan kostumisasi",
+        "thumbnail": "home-DIPOLLING.JPG",
+        "description": "Dipolling adalah aplikasi berbasis website yang berfungsi untuk membuat sebuah polling/voting dengan tampilan yang berfokus pada kenyamanan saat memilih suara/vote dan dashboard admin yang lengkap serta bebas kostumisasi.",
+        "owner": "Febry Billiyagi",
+        "directory": "DIPOLLING", 
+        "release":  [
+            "05",
+            "November",
+            "2021"
+        ],
+        "screenshots": [
+            "home-DIPOLLING.JPG",
+            "pollings-table-DIPOLLING.JPG",
+            "dashboard-DIPOLLING.JPG"
+        ],
+        "frameworklibrary": [
+            "Bootstrap 5",
+            "JQuery"
+        ]
+    },{
+        "title": "Ansfora",
+        "logo": "ansfora-logo.png",
+        "preview": "https://ansfora.000webhostapp.com/",
+        "purpose": "Forum tanya jawab. pertanyaan, saran dan survey ",
+        "thumbnail": "home-ANSFORA.png",
+        "description": "aplikasi ini dibuat dengan bertujuan untuk bersosialisasi dan saling membantu antar sesama. Seperti meminta saran, survey atau bertanya dan meminta pendapat orang lain.",
+        "owner": "Febry Billiyagi",
+        "directory": "ANSFORA", 
+        "release":  [
+            "17",
+            "Januari",
+            "2022"
+        ],
+        "screenshots": [
+            "home-ANSFORA.png",
+            "create-question-ANSFORA.png",
+            "question-ANSFORA.png"
+        ],
+        "frameworklibrary": [
+            "Bootstrap 5",
+            " JQuery",
+            " Summernote",
+            " DataTables",
+            " Popper"
+        ]
+    },{
+        "title": "Putrapakuan Mikrotik Hotspot Theme",
+        "logo": "TKJ-NewLogo[ORANGE].jpg",
+        "preview": "https://tkj-family.github.io/",
+        "purpose": "Template Login Hotspot Mikrotik untuk Sekolah SDIT-SMP-SMK Putra Pakuan",
+        "thumbnail": "home-PUTRAPAKUAN-MIKROTIK-HOTSPOT-THEME.PNG",
+        "description": "Template Hotspot mikrotik yang mempunyai beragam fitur dan desain yang simpel yang menjadikannya mudah dan nyaman digunakan untuk semua kalangan.",
+        "owner": "Febry Billiyagi",
+        "directory": "PUTRAPAKUAN-MIKROTIK-HOTSPOT-THEME", 
+        "release":  [
+            "05",
+            "September",
+            "2021"
+        ],
+        "screenshots": [
+            "home-PUTRAPAKUAN-MIKROTIK-HOTSPOT-THEME.PNG",
+            "redirect-loading-PUTRAPAKUAN-MIKROTIK-HOTSPOT-THEME.PNG",
+            "logout-PUTRAPAKUAN-MIKROTIK-HOTSPOT-THEME.PNG"
+        ],
+        "frameworklibrary": [
+            "Bootstrap 5",
+            "JQuery",
+            "AOS - Animate on Scroll"
+        ]
+    }
+]
