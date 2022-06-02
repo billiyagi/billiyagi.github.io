@@ -261,7 +261,7 @@
 
     <script type="module">
         // Include Lightbox 
-        import PhotoSwipeLightbox from '/Portfolio/assets/module/photoswipe/photoswipe-lightbox.esm.js';
+        import PhotoSwipeLightbox from '/assets/module/photoswipe/photoswipe-lightbox.esm.js';
 
         function photoSwipe(classGallery) {
             const lightbox = new PhotoSwipeLightbox({
@@ -272,7 +272,7 @@
             children: 'a',
 
             // setup PhotoSwipe Core dynamic import
-            pswpModule: () => import('/Portfolio/assets/module/photoswipe/photoswipe.esm.js')
+            pswpModule: () => import('/assets/module/photoswipe/photoswipe.esm.js')
             });
             lightbox.init();
         }
