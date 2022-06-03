@@ -7,7 +7,7 @@ $.getJSON( "assets/projects.json", function( data ) {
     // Menambahkan item project ke container project
     $.each( data, function(key, val) {
         $('#rowProjects').append(`
-        <div class="col-md-6 col-lg-4 clients-card">
+        <div class="col-md-6 col-lg-4 clients-card" data-aos="fade-up" data-aos-duration="1${key}00">
             <div class="card border-0 shadow-hover">
                 <div class="position-relative">
                     <img src="assets/img/projects/${val.directory}/${val.thumbnail}" class="card-img-top w-100 h-100" alt="${val.title}">

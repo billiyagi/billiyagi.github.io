@@ -43,6 +43,9 @@
     <!-- CSS Photoswipe -->
     <link rel="stylesheet" href="assets/module/photoswipe/photoswipe.css">
 
+    <!-- CSS AOS - Animate on Scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- CSS Primary -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -57,25 +60,27 @@
     <!-- Introduction -->
     <section class="vh-100 intro d-flex justify-content-center align-items-center">
         <div class="text-center">
-            <img class="rounded-circle shadow" src="assets/img/febry-billiyagi.jpg" alt="" width="170px" height="170px">
-            <h1 class="mt-4 fw-bold">Febry Billiyagi</h1>
-            <p class="fs-5 opacity-75">Web Developer</p>
+            <img class="rounded-circle shadow" src="assets/img/febry-billiyagi.jpg" alt="" width="170px" height="170px" data-aos="fade-up" data-aos-duration="1500">
+            <h1 class="mt-4 fw-bold" data-aos="fade-up" data-aos-duration="1800">Febry Billiyagi</h1>
+            <p class="fs-5 opacity-75" data-aos="fade-up" data-aos-duration="2100">Web Developer</p>
         </div>
     </section>
 
     <!-- About -->
     <section class="vh-100 container px-md-0 px-4">
         <div class="title d-flex align-items-center mb-5">
-            <img src="assets/img/svg/line-1.svg" class="me-3">
-            <h2 class="fw-bold p-0 m-0">About Me</h2>
+            <img src="assets/img/svg/line-1.svg" class="me-3" data-aos="fade-right" data-aos-duration="1000">
+            <h2 class="fw-bold p-0 m-0" data-aos="fade-in" data-aos-duration="1500">About Me</h2>
         </div>
-        <p class="fs-3">
+        <p class="fs-3" data-aos="fade-in" data-aos-duration="1800">
             Hi, I'm Febry Billiyagi I'm a web developer with a high passion for developing ideas into code that can help many people <br> <br> and apart from coding and learning new tech i also enjoy badminton, tea reading and jogging. If any of these things interest you too, I'd love to chat!
         </p>
 
         <div class="fs-5 mt-5">
-            <i class="fa-solid fa-location-dot text-danger me-2"></i>
-            Bogor, Indonesia
+            <i class="fa-solid fa-location-dot text-danger me-2" data-aos="fade-in" data-aos-duration="2100"></i>
+            <span data-aos="fade-in" data-aos-duration="2300">
+                Bogor, Indonesia
+            </span>
         </div>
     </section>
 
@@ -86,10 +91,10 @@
     <section class="px-md-0 px-4 bg-light py-5">
         <div class="container">
             <div class="title d-flex align-items-center mb-5">
-                <img src="assets/img/svg/line-1.svg" class="me-3">
-                <h2 class="fw-bold p-0 m-0">Projects</h2>
+                <img src="assets/img/svg/line-1.svg" class="me-3" data-aos="fade-right" data-aos-duration="1000">
+                <h2 class="fw-bold p-0 m-0" data-aos="fade-in" data-aos-duration="1500">Projects</h2>
             </div>
-            <hr>
+            <hr data-aos="fade-in" data-aos-duration="1800">
 
             <div class="row gy-5 mt-2" id="rowProjects"></div>
         </div>
@@ -100,14 +105,14 @@
     <section class="px-md-0 px-4 py-5 my-5">
         <div class="container">
             <div class="title d-flex align-items-center mb-5">
-                <img src="assets/img/svg/line-1.svg" class="me-3">
-                <h2 class="fw-bold p-0 m-0">Certificate</h2>
+                <img src="assets/img/svg/line-1.svg" class="me-3" data-aos="fade-right" data-aos-duration="1000">
+                <h2 class="fw-bold p-0 m-0" data-aos="fade-in" data-aos-duration="1500">Certificate</h2>
             </div>
-            <hr>
+            <hr data-aos="fade-in" data-aos-duration="1800">
 
             <div class="row gy-5 mt-2 pswp-gallery pswp-gallery--single-column gallery-certificate">
                 <a href="assets/img/certificate/SERTIFIKAT-RESPONSIVE-WEB DESIGN-FEBRY-BILLIYAGI-KARSIDI.jpg" data-pswp-width="2000" data-pswp-height="1500" target="_blank" class="text-decoration-none text-dark">
-                    <div class="col-md-4">
+                    <div class="col-md-4" data-aos="fade-in" data-aos-duration="1500">
                         <div class="card border-0 shadow-hover">
                             <img src="assets/img/certificate/SERTIFIKAT-RESPONSIVE-WEB DESIGN-FEBRY-BILLIYAGI-KARSIDI.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
@@ -123,8 +128,8 @@
     <!-- Clients -->
     <section class="container vh-100 px-md-0 px-4 py-5 my-5">
         <div class="title-2 mb-5">
-            <h2 class="fw-bold text-center mb-4">Clients</h2>
-            <div class="border border-1 position-relative">
+            <h2 class="fw-bold text-center mb-4" data-aos="fade-down" data-aos-duration="1000">Clients</h2>
+            <div class="border border-1 position-relative" data-aos="fade-in" data-aos-duration="1500">
                 <img src="assets/img/svg/line-2.svg" class="position-absolute start-50 translate-middle">
             </div>
         </div>
@@ -134,7 +139,7 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="row align-items-center justify-content-center" style="height: 500px;">
-                        <div class="col-md-7">
+                        <div class="col-md-7" data-aos="fade-in" data-aos-duration="1800">
                             <div class="card mx-md-2 mx-4 border-0 clients-card">
                                 <img src="assets/img/owner-project/bkpaxist-logo.png" alt="Client" class="position-absolute rounded-circle start-50 translate-middle">
                                 <div class="card-body shadow-hover-2 rounded-2">
@@ -169,17 +174,17 @@
     <!-- Contact -->
     <section class="vh-100 contact d-flex justify-content-center align-items-center">
         <div class="text-center">
-            <h3 class="fs-1 fw-bold">Want to collaborate?</h3>
+            <h3 class="fs-1 fw-bold" data-aos="fade-down" data-aos-duration="1500">Want to collaborate?</h3>
 
             <!-- Contact button -->
             <div class="d-flex justify-content-center mt-4">
-                <a href="https://instagram.com/billiyagi" target="blank" class="bg-light shadow rounded-circle py-2 px-3" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Instagram" data-bs-content="Check out my instagram account to see what i'm doing!">
+                <a href="https://instagram.com/billiyagi" target="blank" class="bg-light shadow rounded-circle py-2 px-3" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Instagram" data-bs-content="Check out my instagram account to see what i'm doing!" data-aos="fade-right" data-aos-duration="1500">
                     <i class="fa-brands fa-instagram fs-3 lh-base" style="color: #d42f8b;"></i>
                 </a>
-                <a href="https://www.linkedin.com/in/febry-billiyagi-karsidi/" class="bg-light shadow rounded-circle py-2 px-3 mx-4" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Linkedin" data-bs-content="Want to hire me? see my LinkedIn account to find out more about me. Just click the button">
+                <a href="https://www.linkedin.com/in/febry-billiyagi-karsidi/" class="bg-light shadow rounded-circle py-2 px-3 mx-4" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Linkedin" data-bs-content="Want to hire me? see my LinkedIn account to find out more about me. Just click the button" data-aos="fade-up" data-aos-duration="1500">
                     <i class="fa-brands fa-linkedin fs-3 lh-base" style="color: #0056c4;"></i>
                 </a>
-                <a href="https://github.com/billiyagi" class="bg-light shadow rounded-circle py-2 px-3" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Github" data-bs-content="Are you interested in my code? check out my Github account and let's collaborate!">
+                <a href="https://github.com/billiyagi" class="bg-light shadow rounded-circle py-2 px-3" data-bs-toggle="popover" data-bs-trigger="hover focus" title="Github" data-bs-content="Are you interested in my code? check out my Github account and let's collaborate!" data-aos="fade-left" data-aos-duration="1500">
                     <i class="fa-brands fa-github fs-3 lh-base text-dark"></i>
                 </a>
             </div>
@@ -256,8 +261,15 @@
     <!-- JS Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
 
+    <!-- CSS AOS - Animate on Scroll -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <!-- JS Primary -->
     <script src="assets/js/script.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
 
     <script type="module">
         // Include Lightbox 
