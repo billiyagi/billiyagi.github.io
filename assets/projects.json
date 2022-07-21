@@ -4,7 +4,7 @@
         "logo": "Pedagang-Logo-(PG).png",
         "preview": "http://pedagang.gq/",
         "price" : "170.000",
-        "priceLink" : [["Karyakarsa", "https://karyakarsa.com/"], ["Projects", "https://projects.co.id/public/browse_products/view/8d6411/sistem-pengelola-data-gudang-pedagang"]],
+        "priceLink" : [["Karyakarsa", "https://karyakarsa.com/billiyagi/sistem-pengelola-data-gudang-pedagang"], ["Projects", "https://projects.co.id/public/browse_products/view/8d6411/sistem-pengelola-data-gudang-pedagang"]],
         "purpose": "Sistem Pengelola Data Gudang",
         "thumbnail": "PeDaGang-Dashboard.png",
         "description": "Aplikasi pengelola data gudang yang simpel, mudah dan fleksibel. Dengan menggunakan Framework dan Library populer saat ini, menjadikan PeDaGang aplikasi yang cukup kompatibel dengan berbagai kondisi.",
