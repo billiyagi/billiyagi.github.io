@@ -45,6 +45,18 @@ $.getJSON( "assets/projects.json", function( data ) {
 
         // Project Preview Link
         $('#projectLink').attr('href', data[id].preview);
+
+        // Project Price
+        if ( data[id].price == 0 ) {
+            $('#projectPrice').hide();
+            $('#buyOn').hide();
+        } else {
+            $('#buyOn').show();
+            $('#projectPrice').show().children('#numPrice').text(data[id].price);
+            $.each(data[id].priceLink, function(linkKey, linkVal) {
+                $('#listEcom').prepend(`<a href="${linkVal[1]}" class="me-2" target="blank">${linkVal[0]}</a>`);
+            })
+        }
         
         // Project Description
         $('#projectDescription').text(data[id].description);
@@ -58,6 +70,7 @@ $.getJSON( "assets/projects.json", function( data ) {
         <li><strong>Library & Framework : </strong> 
             <p class="ps-3"> ${$.each(data[id].frameworklibrary, (key,val) => val)} </p>
         </li>
+        ${(data[id].template) ? `<li><strong>Template : </strong>${data[id].template}</li>` : ''}
         `);
         
         // Project Screenshots

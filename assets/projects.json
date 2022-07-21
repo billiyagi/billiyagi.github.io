@@ -1,8 +1,41 @@
 [
     {
+        "title": "PEDAGANG",
+        "logo": "Pedagang-Logo-(PG).png",
+        "preview": "http://pedagang.gq/",
+        "price" : "170.000",
+        "priceLink" : [["Karyakarsa", "https://karyakarsa.com/"], ["Projects", "https://projects.co.id/public/browse_products/view/8d6411/sistem-pengelola-data-gudang-pedagang"]],
+        "purpose": "Sistem Pengelola Data Gudang",
+        "thumbnail": "PeDaGang-Dashboard.png",
+        "description": "Aplikasi pengelola data gudang yang simpel, mudah dan fleksibel. Dengan menggunakan Framework dan Library populer saat ini, menjadikan PeDaGang aplikasi yang cukup kompatibel dengan berbagai kondisi.",
+        "owner": "Febry Billiyagi",
+        "directory": "PEDAGANG", 
+        "release":  [
+            "21",
+            "Juli",
+            "2022"
+        ],
+        "screenshots": [
+            "PeDaGang-Login.png",
+            "PeDaGang-Dashboard.png",
+            "PeDaGang-Data-Barang.png",
+            "PeDaGang-Panduan.png",
+            "PeDaGang-Activity.png"
+        ],
+        "frameworklibrary": [
+            "Bootstrap 5",
+            " Codeigniter 4",
+            " JQuery",
+            " DataTables",
+            " FontAwesome",
+            " SweetAlert"
+        ],
+        "template": "Stisla"
+    }, {
         "title": "BKPAXIST",
         "logo": "bkpaxist-logo.png",
         "preview": "https://bkpaxist.000webhostapp.com",
+        "price" : 0,
         "purpose": "Website penyedia layanan bimbingan konseling",
         "thumbnail": "home-BKPAXIST.png",
         "description": "BKPAXIST Adalah layanan bimbingan konseling untuk siswa/i dari sekolah SMK Putra Pakuan. Berupa edukasi psikologi, konsultasi dan artikel yang dapat dibaca oleh semua orang.",
@@ -34,6 +67,7 @@
         "title": "TKJ FAMILY",
         "logo": "TKJ-NewLogo[ORANGE].jpg",
         "preview": "https://tkj-family.000webhostapp.com",
+        "price" : 0,
         "purpose": "Blog dan gallery aktifitas kelas",
         "thumbnail": "home-TKJ-FAMILY.png",
         "description": "Website yang menampilkan kenangan - kenangan di masa sekolah menengah ke atas Jurusan TKJ, Angkatan 11 di SMK Putra Pakuan Bogor.",
@@ -60,6 +94,7 @@
         "title": "Febri Trans Madiun",
         "logo": "Febri-Trans-Madiun-logo.png",
         "preview": "https://febritransmadiun.com",
+        "price" : 0,
         "purpose": "Profil Perusahaan Rental Mobil Febri Trans Madiun",
         "thumbnail": "home-FEBRITRANSMADIUN.png",
         "description": "Rental Mobil Febri Trans Madiun merupakan salah satu usaha penyedia layanan transportasi rental mobil di kota Madiun dan sekitarnya. Febri Trans menyediakan berbagai macam jenis kendaraan. Kami berkomitmen untuk mengedepankan pelayanan dan kenyamanan pelanggan.",
@@ -84,6 +119,7 @@
         "title": "Dipolling",
         "logo": "dipolling.ico",
         "preview": "https://gobillyx.000webhostapp.com/dipolling/",
+        "price" : 0,
         "purpose": "Aplikasi polling sederhana dengan kebebasan kostumisasi",
         "thumbnail": "home-DIPOLLING.JPG",
         "description": "Dipolling adalah aplikasi berbasis website yang berfungsi untuk membuat sebuah polling/voting dengan tampilan yang berfokus pada kenyamanan saat memilih suara/vote dan dashboard admin yang lengkap serta bebas kostumisasi.",
@@ -107,6 +143,7 @@
         "title": "Ansfora",
         "logo": "ansfora-logo.png",
         "preview": "https://ansfora.000webhostapp.com/",
+        "price" : 0,
         "purpose": "Forum tanya jawab. pertanyaan, saran dan survey ",
         "thumbnail": "home-ANSFORA.png",
         "description": "aplikasi ini dibuat dengan bertujuan untuk bersosialisasi dan saling membantu antar sesama. Seperti meminta saran, survey atau bertanya dan meminta pendapat orang lain.",
@@ -132,6 +169,7 @@
     },{
         "title": "Putrapakuan Mikrotik Hotspot Theme",
         "logo": "TKJ-NewLogo[ORANGE].jpg",
+        "price" : 0,
         "preview": "https://tkj-family.github.io/",
         "purpose": "Template Login Hotspot Mikrotik untuk Sekolah SDIT-SMP-SMK Putra Pakuan",
         "thumbnail": "home-PUTRAPAKUAN-MIKROTIK-HOTSPOT-THEME.PNG",

@@ -48,6 +48,9 @@
 
     <!-- CSS Primary -->
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Instant Page -->
+    <script src="//instant.page/5.1.1" type="module" integrity="sha384-MWfCL6g1OTGsbSwfuMHc8+8J2u71/LA8dzlIN3ycajckxuZZmF+DNjdm7O6H3PSq"></script>
 </head>
 <body>
     <div class="loading-overlay position-fixed top-0 left-0 w-100 h-100 d-flex justify-content-center align-items-center bg-light">
@@ -215,6 +218,7 @@
                                     <h3 class="fs-1 fw-bold" id="projectTitle"></h3>
                                     <p id="projectPurpose">Website penyedia layanan bimbingan konseling</p>
                                     <a href="#" class="btn btn-primary" id="projectLink">Preview <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                    <a href="#" class="btn btn-success" id="projectPrice">IDR <span id="numPrice"></span></a>
                                 </div>
                             </div>
 
@@ -229,6 +233,11 @@
                                 <!-- Description -->
                                 <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
                                     <p class="py-3 lh-base fs-5" id="projectDescription"></p>
+                                    <div id="buyOn">
+                                        <h5 class="fw-bold">Available On</h5>
+                                        <div id="listEcom"></div>
+                                    </div>
+                                    
                                 </div>
 
                                 <!-- Details -->
