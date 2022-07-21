@@ -52,7 +52,7 @@
             "konsultasi-BKPAXIST.png"
         ],
         "frameworklibrary": [
-            "Bootstrap 5",
+            "Bootstrap 4",
             " Codeigniter 4",
             " JQuery",
             " AOS - Animate on Scroll",
