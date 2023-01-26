@@ -64,7 +64,7 @@ $.getJSON( "assets/projects.json", function( data ) {
         // Project Detail
         $('#projectDetail').html(`
         <li><strong>Project : </strong>${data[id].title}</li>
-        <li><strong>Project purpose: </strong>${data[id].purpose}</li>
+        <li><strong>Description: </strong>${data[id].purpose}</li>
         <li><strong>Owner : </strong>${data[id].owner}</li>
         <li><strong>Release : </strong>${data[id].release[0]}, ${data[id].release[1]} ${data[id].release[2]}</li>
         <li><strong>Library & Framework : </strong> 
